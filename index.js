@@ -3,20 +3,23 @@
  *
  */
 
+const debug = require('debug')('notes')
+
 module.exports = function (app) {
   const error = app.error || (msg => {console.error(msg)})
   const apiRoutePrefix = '/signalk/v1/api/resources'
+  let pluginStarted = false
 
   var plugin = {}
 
   plugin.start = function (props) {
-    debug(`Start plugin`)
+    debug(`Start plugin notes`)
     pluginStarted === false && registerRoutes()
     pluginStarted = true
   }
 
   plugin.stop = function () {
-    debug('Stop plugin')
+    debug(`Stop plugin notes`)
   }
 
   plugin.id = 'notes'
