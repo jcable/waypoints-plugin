@@ -1,0 +1,22 @@
+{
+  "name": "notes-plugin",
+  "version": "1.0.0",
+  "description": "signalk plugin to respond to the resources/notes REST API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcable/notes-plugin.git"
+  },
+  "keywords": [
+    "signalk-node-server-plugin"
+  ],
+  "author": "Julian Cable <julian.cable@yahoo.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcable/notes-plugin/issues"
+  },
+  "homepage": "https://github.com/jcable/notes-plugin#readme"
+}
