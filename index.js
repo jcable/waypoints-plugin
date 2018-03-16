@@ -35,7 +35,7 @@ module.exports = function (app) {
 
   function registerRoutes() {
 
-    app.get(apiRoutePrefix + "/notes", (req, res) => {
+    app.get(apiRoutePrefix + "/waypoints", (req, res) => {
       res.json({})
     })
   }
