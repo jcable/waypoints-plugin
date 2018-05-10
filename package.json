@@ -1,5 +1,5 @@
 {
-  "name": "waypoints-plugin",
+  "name": "@signalk/waypoints-plugin",
   "version": "1.0.0",
   "description": "signalk plugin to respond to the resources/waypoints REST API.",
   "main": "index.js",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/jcable/waypoints-plugin/issues"
   },
-  "homepage": "https://github.com/jcable/waypoints-plugin#readme"
+  "homepage": "https://github.com/jcable/waypoints-plugin#readme",
+  "dependencies": {
+    "debug": "^3.1.0"
+  }
 }
